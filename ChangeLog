@@ -1,4 +1,13 @@
 2022-11-21  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
+	* GDS-Light-blue.qss:
+	- Imported initial round of changes. The changes involve moving
+	from pixel based units to units relative to the size of the font
+	(em) and adjusting sizes accordingly. This is not a complete fix
+	but is a decent starting point.
+
+	* README.md:
+	- Added more information about why we're doing this
+
 	* Created repository and imported unmodified files
 
