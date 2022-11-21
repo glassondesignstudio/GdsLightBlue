@@ -1,5 +1,11 @@
 2022-11-21  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
+	*** Feature: fix-text-entry-boxes
+
+	* GDS-Light-blue.qss:
+	- Fixed height and width of text entry boxes
+	- Fixed placement of text within text entry boxes
+
 	* GDS-Light-blue.qss:
 	- Imported initial round of changes. The changes involve moving
 	from pixel based units to units relative to the size of the font

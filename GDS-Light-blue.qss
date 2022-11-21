@@ -107,14 +107,6 @@ QMdiArea {
 Sub windows
 ==================================================================================================*/
 QMdiSubWindow {
-/*    border:1em solid #828282;
-    margin-top: 30em;
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-bottom:4em;
-*/
-
-    /* GDS changes */
     border: 0.1em solid #828282;
     margin-top: 1em;
     margin-left: 1em;
@@ -185,6 +177,7 @@ QMenu QCheckBox,
 QMenu QPushButton,
 QMenu QToolButton {
     color: black; /* same as regular QRadioButton and QCheckBox */
+    min-height: 1em;
 }
 
 QMenu QRadioButton:hover,
@@ -246,9 +239,6 @@ QToolBar::separator:top,
 QToolBar::separator:bottom,
 QToolBar::separator:horizontal {
     background-color: rgba(0,0,0,30);
-/*    width: 1em;
-    margin: 6em 4em;*/
-
     width: 0.1em;
     margin: 0.3em 0.2em;
 
@@ -640,7 +630,7 @@ QDialog#Gui__Dialog__DlgPreferences > QListView {
 /* unique styles for sections inside Preferences */
 QDialog#Gui__Dialog__DlgPreferences > QListView::item {
     border-radius: 0.2em;
-    height: 3em;
+    min-height: 3em;
 }
 
 QDialog#Gui__Dialog__DlgPreferences > QListView::item:hover {
@@ -898,7 +888,7 @@ QTreeView > QWidget > QDateTimeEdit:read-only {
 
 /* Fix to correctly (not totally) draw QTextEdit on OSX at Page properties: "Page result", "Template" and "Editable Texts" */
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QWidget {
-    min-height: 0.14em;
+    min-height: 1em;
     border-radius: 0em; /* reset */
 }
 
@@ -1198,10 +1188,9 @@ QDateTimeEdit {
     selection-color: white;
     selection-background-color: #5e90fa;
     border: 0.1em solid #e0e0e0;
-    border-radius: 0.3em;
-    min-width: 0.50em; /* it ensures the default value is correctly displayed */
-    min-height: 0.20em; /* important to be a pair number in order to up/down buttons to be divisible by two (if not set could create a blank line in Ubuntu. Its downside is that it's needed to reset it (min-width: 0em) on following elements that can't have it such as fields inside QToolBar and inside QTreeView (Property editor) */
-    padding: 0.1em 0.1em; /* temporal: could don't be compatible with elements inside Tree/List view */
+    border-radius: 1em;
+    min-width: 10em; /* it ensures the default value is correctly displayed */
+    min-height: 0.75em; /* important to be a pair number in order to up/down buttons to be divisible by two (if not set could create a blank line in Ubuntu. Its downside is that it's needed to reset it (min-width: 0em) on following elements that can't have it such as fields inside QToolBar and inside QTreeView (Property editor) */
 }
 
 /* more contrast for QTexEdits */
