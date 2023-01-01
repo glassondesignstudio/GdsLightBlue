@@ -625,12 +625,15 @@ QDialog#Gui__Dialog__DlgPreferences QTabWidget::pane {
 /* hack to correctly align Preferences icon list */
 QDialog#Gui__Dialog__DlgPreferences > QListView {
     min-width: 3em;
+
+    /* Setting the height here has no bearing on the rendered icon list - DON'T know why */
 }
 
 /* unique styles for sections inside Preferences */
 QDialog#Gui__Dialog__DlgPreferences > QListView::item {
     border-radius: 0.2em;
-    min-height: 3em;
+
+    /* Setting the height here has no bearing on the rendered icon list - DON'T know why */
 }
 
 QDialog#Gui__Dialog__DlgPreferences > QListView::item:hover {
@@ -671,6 +674,20 @@ QDockWidget QTableView {
     margin: 0.6em;
     border: 0.1em solid #c3c3c3; /* same as regular QTreeView, QListView and QTableView */
     min-height: 0.40em; /* necessary in some areas of FreeCAD */
+}
+
+/***************************************************
+ *
+ * Set the height of the widgets list in Multitransform tool parameters
+ *
+ ***************************************************
+ */
+QDockWidget QListView#listWidgetFeatures,
+QDockWidget QListView#listTransformFeatures
+{
+    margin: 0.6em;
+    min-height: 5em;
+    max-height: 10em;
 }
 
 /* Buttons to scroll tabs if there is not space to show all of them: */

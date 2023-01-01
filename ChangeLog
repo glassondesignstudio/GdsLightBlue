@@ -1,3 +1,9 @@
+2023-01-01  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* GDS-Light-blue.qss:
+	- Fixed the sizes of the Multi-transform Tools widget and
+	transformations lists by defining styles specifically for them
+
 2022-11-21  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
 	*** Feature: fix-text-entry-boxes
