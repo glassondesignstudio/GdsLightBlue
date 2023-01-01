@@ -3,6 +3,8 @@
 	* GDS-Light-blue.qss:
 	- Fixed the sizes of the Multi-transform Tools widget and
 	transformations lists by defining styles specifically for them
+	- Started tidying up comments to make them more readable and
+	meningful
 
 2022-11-21  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
