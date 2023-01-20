@@ -1,10 +1,12 @@
 # FreeCAD-stylesheet
 
-This repository contains the FreeCAD stylesheet used by the Glasson Design Studio (GDS) YouTube channel.
+This repository contains the source code for a FreeCAD stylesheet Preference Pack called SkyBlue. The SkyBlue stylesheet is an adaptive stylesheet that is based upon the standard FreeCAD stylsheet Light-blue.
 
-The GDS YouTube channel records in 4K and the standard FreeCAD stylesheets don't seem to support this resolution very well. This stylesheet is an attempt to improve the look of FreeCAD at 4K resolution to make it easier for visually impaired people to see read the screen, and to make it easier to use overall.
+## Why is special about this stylesheet?
 
-This stylesheet is derived from the FreeCAD standard sytlesheet - Light-blue.
+This stylesheet was developed because videos published on the GlassonDesignStudio YouTube channel were recorded at 4K resolution but the existing FreeCAD stylesheets did not support this resolution very well.
+
+The standard stylesheets are typically pixel based which does not allow them to scale up to make ensure visibility when the screen resolution increases. The standard stylesheet Light-blue has been modified so that it adapts more easily to higher resolution displays.
 
 ## Installation into Flatpak version of FreeCAD on Linux
 

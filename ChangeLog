@@ -1,3 +1,18 @@
+2023-01-20  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* package.xml:
+	- Added Preference Pack metadata
+
+	* README.md:
+	- Rewrote the description of the repository
+
+	* SkyBlue/SkyBlue.qss:
+	- Renamed ../GDS-Light-Blue.qss to SkyBlue.qss and moved into the
+	SkyBlue Preference Pack directory
+
+	* Created directory SkyBlue which contains the Preference Pack for
+	the SkyBlue stylesheet
+
 2023-01-01  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
 	* GDS-Light-blue.qss:

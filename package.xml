@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Sky Blue 4K</name>
+  <description>A preference pack including a stylesheet for using FreeCAD
+	at 4K resolution .</description>
+  <version>0.0.1</version>
+  <maintainer email="geoff@glassondesignstudio.com.au">Geoff Glasson</maintainer>
+  <license file="LICENSE">GPLv3</license>
+  <url type="repository" branch="main">https://github.com/glassondesignstudio/FreeCAD-stylesheet</url>
+
+  <!-- <icon>resources/icons/DarkSide.svg</icon> -->
+
+  <content>
+    <preferencepack>
+      <name>SkyBlue</name>
+      <description>Adaptive Stylesheet</description>
+      <tag>stylesheet</tag>
+      <file>SkyBlue.qss</file>
+    </preferencepack>
+  </content>
+
+</package>

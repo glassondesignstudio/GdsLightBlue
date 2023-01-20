@@ -13,8 +13,7 @@
  * LICENSE
  * =======
  *
- * GDS Light Blur stylesheet - changes Copyright (c) 2022 Glasson
- * Design Studio
+ * SkyBlue stylesheet - changes Copyright (c) 2022 Glasson Design Studio
  *
  * Light Blue stylehseet - Copyright (c) 2019 Pablo Gil Fernández
  *
@@ -58,6 +57,12 @@
      */
     color: #505050;
 
+    /*
+     * FIXME:
+     *
+     * Hard coded for now, but ideally this should be an editable preference
+     * so that stylesheet can be used with other resolutions as well.
+     */
     font-size: 25px;
 }
 
