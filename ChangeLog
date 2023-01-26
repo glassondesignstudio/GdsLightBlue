@@ -1,3 +1,9 @@
+2023-01-26  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* SkyBlue/SkyBlue.qss:
+	- Improved stylesheet so that toolbar items with subitems can be
+	accessed properly
+
 2023-01-20  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
 	* package.xml:

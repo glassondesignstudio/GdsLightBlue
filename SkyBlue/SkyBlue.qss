@@ -2019,7 +2019,7 @@ QToolBar > QToolButton:pressed {
 
 /* ToolBar menu buttons (buttons with drop-down menu) */
 QToolBar > QToolButton#qt_toolbutton_menubutton {
-    padding-right: 0.20em; /* Hack to add more width to buttons with menu */
+    padding-right: 0.3em; /* Hack to add more width to buttons with menu */
     border: 0.1em solid transparent;
     border-radius: 0.3em;
 }
@@ -2035,7 +2035,7 @@ QToolBar > QToolButton#qt_toolbutton_menubutton::menu-button {
     border: none;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
-    width: 0.16em; /* 16em width + 4em for border = 20em allocated above */
+    width: 0.75em;
     outline: none;
     background-color: transparent;
 }
@@ -2052,7 +2052,7 @@ QToolBar > QToolButton::menu-arrow {
     background-repeat: none;
     subcontrol-origin: padding;
     subcontrol-position: bottom right;
-    height: 0.10em; /* same as arrow image */
+    height: 2em;
 }
 
 QToolBar > QToolButton::menu-arrow:hover {
