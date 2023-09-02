@@ -1,5 +1,8 @@
 2023-09-02    <geoff@glassondesignstudio.com.au>
 
+		* ReleaseNotes.md:
+		- Added release notes in preparation for initial release
+
 		* package.xml:
 		- Updated package details
 

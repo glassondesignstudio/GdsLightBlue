@@ -2,6 +2,8 @@
 
 This repository contains the source code for a FreeCAD Preference Pack called GdsLightBlue. The GdsLightBlue stylesheet is an adaptive stylesheet that is based upon the standard FreeCAD stylsheet Light-blue.
 
+See the [Release Notes](./ReleaseNotes.md) for more details on the changes and new features for each release.
+
 ## Why is special about this stylesheet?
 
 This stylesheet was developed because videos published on the GlassonDesignStudio YouTube channel were recorded at 4K resolution but the existing FreeCAD stylesheets did not support this resolution very well. The standard stylesheets are typically pixel based which does not allow them to scale up to make ensure visibility when the screen resolution increases. The standard stylesheet Light-blue has been modified so that it adapts more easily to higher resolution displays.
