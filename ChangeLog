@@ -1,4 +1,63 @@
+2023-09-02    <geoff@glassondesignstudio.com.au>
+
+		* ReleaseNotes.md:
+		- Added release notes in preparation for initial release
+
+		* package.xml:
+		- Updated package details
+
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Added preference pack configuration file
+		- Made the view background colour a solid grey colour
+		- Set default marker size to 15
+		- Corrected name of stylesheet so that it gets automatically
+		applied
+
+		* README.md:
+		- Updated installation instructions for Flatpak based systems
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Increased size of check box so that it can actually be seen
+
+		* Renamed stylesheet from SkyBlue to GdsLightBlue to reference
+		where it was derived from
+
+2023-01-26  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* SkyBlue/SkyBlue.qss:
+	- Improved stylesheet so that toolbar items with subitems can be
+	accessed properly
+
+2023-01-20  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* package.xml:
+	- Added Preference Pack metadata
+
+	* README.md:
+	- Rewrote the description of the repository
+
+	* SkyBlue/SkyBlue.qss:
+	- Renamed ../GDS-Light-Blue.qss to SkyBlue.qss and moved into the
+	SkyBlue Preference Pack directory
+
+	* Created directory SkyBlue which contains the Preference Pack for
+	the SkyBlue stylesheet
+
+2023-01-01  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	* GDS-Light-blue.qss:
+	- Fixed the sizes of the Multi-transform Tools widget and
+	transformations lists by defining styles specifically for them
+	- Started tidying up comments to make them more readable and
+	meningful
+
 2022-11-21  Geoff Glasson  <geoff@glassondesignstudio.com.au>
+
+	*** Feature: fix-text-entry-boxes
+
+	* GDS-Light-blue.qss:
+	- Fixed height and width of text entry boxes
+	- Fixed placement of text within text entry boxes
 
 	* GDS-Light-blue.qss:
 	- Imported initial round of changes. The changes involve moving

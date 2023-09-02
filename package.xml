@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>GDS Light Blue 4K</name>
+  <description>A preference pack including a stylesheet for using FreeCAD
+	at 4K resolution. This is a fork of FreeCAD's Light Blue theme.</description>
+  <version>0.0.1</version>
+  <maintainer email="geoff@glassondesignstudio.com.au">Geoff Glasson</maintainer>
+  <license file="LICENSE">GPLv3</license>
+  <url type="repository" branch="main">https://github.com/glassondesignstudio/FreeCAD-stylesheet</url>
+
+  <!-- <icon>resources/icons/DarkSide.svg</icon> -->
+
+  <content>
+    <preferencepack>
+      <name>GdsLightBlue</name>
+      <description>Adaptive Stylesheet for FreeCAD</description>
+      <tag>stylesheet</tag>
+    </preferencepack>
+  </content>
+
+</package>
