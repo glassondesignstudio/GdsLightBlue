@@ -1,5 +1,9 @@
 2023-09-02    <geoff@glassondesignstudio.com.au>
 
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 3: Darkened stylesheet so that the light coloured icons
+		could be seen
+
 		* ReleaseNotes.md:
 		- Added release notes in preparation for initial release
 
