@@ -13,8 +13,7 @@
  * LICENSE
  * =======
  *
- * GDS Light Blur stylesheet - changes Copyright (c) 2022 Glasson
- * Design Studio
+ * SkyBlue stylesheet - changes Copyright (c) 2022 Glasson Design Studio
  *
  * Light Blue stylehseet - Copyright (c) 2019 Pablo Gil Fernández
  *
@@ -58,6 +57,12 @@
      */
     color: #505050;
 
+    /*
+     * FIXME:
+     *
+     * Hard coded for now, but ideally this should be an editable preference
+     * so that stylesheet can be used with other resolutions as well.
+     */
     font-size: 25px;
 }
 
@@ -1556,7 +1561,7 @@ Gui--ColorButton:pressed {
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton {
     background-color: #b6b6b6;
     border: 0.1em solid #828282;
-    min-width: 0.16em; /* reset it due to larger value on regular QPushButton, same or bigger value as regular QPushButton min-height */
+    min-width: 1em; /* reset it due to larger value on regular QPushButton, same or bigger value as regular QPushButton min-height */
     border-radius: 0em;
     margin: 0em; /* reset */
     padding: 0em; /* reset */
@@ -1606,7 +1611,7 @@ QDialog QToolButton {
     border-bottom-color: #c3c3c3; /* simulates shadow under the button */
     padding: 0em; /* different than regular QPushButton */
     margin: 0.2em; /* different than regular QPushButton */
-    min-height: 0.16em; /* same as QTabBar QPushButton min-width */
+    min-height: 1em; /* same as QTabBar QPushButton min-width */
     border-radius: 0.4em;
 }
 
@@ -1644,7 +1649,7 @@ QSint--ActionGroup QFrame[class="content"] QToolButton {
     border-bottom-color: #c3c3c3; /* simulates shadow under the button */
     padding: 0.2em 0.6em; /* different than regular QPushButton */
     margin: 0.2em; /* different than regular QPushButton */
-    min-height: 0.16em; /* same as QTabBar QPushButton min-width */
+    min-height: 1em; /* same as QTabBar QPushButton min-width */
     border-radius: 0.4em;
 }
 
@@ -1794,8 +1799,8 @@ QTreeView::indicator {
     color: #c8c8c8;
     background-color: rgba(0,0,0,20);
     border: 0.1em solid #505050;
-    width: 0.11em;
-    height: 0.11em;
+    width: 1em;
+    height: 1em;
     border-radius:0.2em;
 }
 
@@ -1958,8 +1963,8 @@ QToolBar > QDateTimeEdit {
 QToolBar > QPushButton {
     padding: 0em;
     margin: 0.1em; /* doesn't work with :left, :right:, :top or :bottom sub-controls */
-    min-width: 0.1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
-    min-height: 0.1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
+    min-width: 1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
+    min-height: 1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
     border-radius: 0.2em; /* same as regular QPushButton */
 }
 
@@ -2014,7 +2019,7 @@ QToolBar > QToolButton:pressed {
 
 /* ToolBar menu buttons (buttons with drop-down menu) */
 QToolBar > QToolButton#qt_toolbutton_menubutton {
-    padding-right: 0.20em; /* Hack to add more width to buttons with menu */
+    padding-right: 0.3em; /* Hack to add more width to buttons with menu */
     border: 0.1em solid transparent;
     border-radius: 0.3em;
 }
@@ -2030,7 +2035,7 @@ QToolBar > QToolButton#qt_toolbutton_menubutton::menu-button {
     border: none;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
-    width: 0.16em; /* 16em width + 4em for border = 20em allocated above */
+    width: 0.75em;
     outline: none;
     background-color: transparent;
 }
@@ -2047,7 +2052,7 @@ QToolBar > QToolButton::menu-arrow {
     background-repeat: none;
     subcontrol-origin: padding;
     subcontrol-position: bottom right;
-    height: 0.10em; /* same as arrow image */
+    height: 2em;
 }
 
 QToolBar > QToolButton::menu-arrow:hover {
@@ -2329,7 +2334,7 @@ QTabWidget#TabBar > QTabBar::tab:right {
 
 /* Fix for preventing elements in different rows to accidentally overlap */
 QDialog QGroupBox QFrame {
-    margin: 0.2em 0em;
+    margin: 0.2em 0.1em;
 }
 
 *[mandatoryField="true"] { background-color: cyan }
