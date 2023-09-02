@@ -1,3 +1,24 @@
+2023-09-02    <geoff@glassondesignstudio.com.au>
+
+		* package.xml:
+		- Updated package details
+
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Added preference pack configuration file
+		- Made the view background colour a solid grey colour
+		- Set default marker size to 15
+		- Corrected name of stylesheet so that it gets automatically
+		applied
+
+		* README.md:
+		- Updated installation instructions for Flatpak based systems
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Increased size of check box so that it can actually be seen
+
+		* Renamed stylesheet from SkyBlue to GdsLightBlue to reference
+		where it was derived from
+
 2023-01-26  Geoff Glasson  <geoff@glassondesignstudio.com.au>
 
 	* SkyBlue/SkyBlue.qss:

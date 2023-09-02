@@ -1561,7 +1561,7 @@ Gui--ColorButton:pressed {
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton {
     background-color: #b6b6b6;
     border: 0.1em solid #828282;
-    min-width: 0.16em; /* reset it due to larger value on regular QPushButton, same or bigger value as regular QPushButton min-height */
+    min-width: 1em; /* reset it due to larger value on regular QPushButton, same or bigger value as regular QPushButton min-height */
     border-radius: 0em;
     margin: 0em; /* reset */
     padding: 0em; /* reset */
@@ -1611,7 +1611,7 @@ QDialog QToolButton {
     border-bottom-color: #c3c3c3; /* simulates shadow under the button */
     padding: 0em; /* different than regular QPushButton */
     margin: 0.2em; /* different than regular QPushButton */
-    min-height: 0.16em; /* same as QTabBar QPushButton min-width */
+    min-height: 1em; /* same as QTabBar QPushButton min-width */
     border-radius: 0.4em;
 }
 
@@ -1649,7 +1649,7 @@ QSint--ActionGroup QFrame[class="content"] QToolButton {
     border-bottom-color: #c3c3c3; /* simulates shadow under the button */
     padding: 0.2em 0.6em; /* different than regular QPushButton */
     margin: 0.2em; /* different than regular QPushButton */
-    min-height: 0.16em; /* same as QTabBar QPushButton min-width */
+    min-height: 1em; /* same as QTabBar QPushButton min-width */
     border-radius: 0.4em;
 }
 
@@ -1799,8 +1799,8 @@ QTreeView::indicator {
     color: #c8c8c8;
     background-color: rgba(0,0,0,20);
     border: 0.1em solid #505050;
-    width: 0.11em;
-    height: 0.11em;
+    width: 1em;
+    height: 1em;
     border-radius:0.2em;
 }
 
@@ -1963,8 +1963,8 @@ QToolBar > QDateTimeEdit {
 QToolBar > QPushButton {
     padding: 0em;
     margin: 0.1em; /* doesn't work with :left, :right:, :top or :bottom sub-controls */
-    min-width: 0.1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
-    min-height: 0.1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
+    min-width: 1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
+    min-height: 1em; /* could not be larger due to switchable Preferences "Size of toolbar icons" */
     border-radius: 0.2em; /* same as regular QPushButton */
 }
 
@@ -2334,7 +2334,7 @@ QTabWidget#TabBar > QTabBar::tab:right {
 
 /* Fix for preventing elements in different rows to accidentally overlap */
 QDialog QGroupBox QFrame {
-    margin: 0.2em 0em;
+    margin: 0.2em 0.1em;
 }
 
 *[mandatoryField="true"] { background-color: cyan }
