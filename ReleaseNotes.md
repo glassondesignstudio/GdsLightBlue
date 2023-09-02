@@ -1,5 +1,13 @@
 # GdsLightBluePreferencePack Release Notes
 
+## Release 0.1.1
+Release date: 2-Sep-23
+
+Minor bug fix release
+
+# Resolved Issues
+[Issue 3](https://github.com/glassondesignstudio/FreeCAD-stylesheet/issues/3) - Some standard icons are not visible
+
 ## Release 0.1
 Release date: 2-Sep-23
 
