@@ -1,11 +1,21 @@
 # GdsLightBluePreferencePack Release Notes
 
+## Release 0.2
+Release date: TBC
+
+Bug fix release
+
+### Resolved Issues
+[Issue 8](https://github.com/glassondesignstudio/GdsLightBlue/issues/8) - Sketcher constraint font size too small
+[Issue 7](https://github.com/glassondesignstudio/GdsLightBlue/issues/7) - Sketcher contraint icon size too small
+[Issue 4](https://github.com/glassondesignstudio/GdsLightBlue/issues/4) - Rename stylesheet so is less generic
+
 ## Release 0.1.1
 Release date: 2-Sep-23
 
 Minor bug fix release
 
-# Resolved Issues
+### Resolved Issues
 [Issue 3](https://github.com/glassondesignstudio/FreeCAD-stylesheet/issues/3) - Some standard icons are not visible
 
 ## Release 0.1
