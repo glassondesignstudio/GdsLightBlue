@@ -1,3 +1,9 @@
+2023-09-09    <geoff@glassondesignstudio.com.au>
+
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Issues 7 and 8: Increased Sketcher font size to make reading the
+		constraint symbols and values easier.
+
 2023-09-02    <geoff@glassondesignstudio.com.au>
 
 		* GdsLightBlue/GdsLightBlue.qss:
