@@ -20,7 +20,7 @@ At this time there is no automatic installation process for the Preference Pack 
 1. Change into the FreeCAD module directory
    ```cd $HOME/.var/app/.org.freecadweb.FreeCAD/data/FreeCAD/Mod```
 1. Clone the repository using git
-   ```git clone https://github.com/glassondesignstudio/FreeCAD-stylesheet.git```
+   ```git clone https://github.com/glassondesignstudio/GdsLightBlue.git```
 
 ## Setting as default stylesheet
 
