@@ -2104,7 +2104,7 @@ QToolBar QToolButton#qt_toolbar_ext_button:on {
  *****************************************************************************
  */
 QTableView {
-    gridline-color: #d2d2d2;
+    gridline-color: #000000;
     selection-color: #1b3774;
     selection-background-color: #cbd8e6;
 }
