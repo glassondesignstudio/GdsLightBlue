@@ -446,21 +446,22 @@ QScrollBar::sub-page:horizontal {
 
 QScrollBar:vertical {
     background-color: transparent;
-    width: 0.15em;
+    width: 0.7em;               /* Makes vertical scrollbar visible and usable */
+    border-radius: 0.3em;       /* Makes vertical scrollbar visible and usable */
     margin: 0em;
 }
 
 QScrollBar::handle:vertical {
-    min-height: 5em;
-    border-radius: 3em;
-    margin: 15em 4em;
+    min-height: 1em;
+    border-radius: 0.3em;
+    margin: 0.5em 0.4em;
 }
 
 QScrollBar::sub-line:vertical {
     margin: 0.3em 0em 0.3em 0.1em; /* 1em to correctly fit the 10em width image */
     border-image: url(qss:images_dark-light/up_arrow_dark.svg);
     height: 0.6em;
-    width: 0.10em;
+    width: 0.5em;
     subcontrol-position: top;
     subcontrol-origin: margin;
 }
@@ -469,7 +470,7 @@ QScrollBar::add-line:vertical {
     margin: 0.3em 0em 0.3em 1em; /* 1em to correctly fit the 10em width image */
     border-image: url(qss:images_dark-light/down_arrow_dark.svg);
     height: 0.6em;
-    width: 0.10em;
+    width: 0.5em;
     subcontrol-position: bottom;
     subcontrol-origin: margin;
 }

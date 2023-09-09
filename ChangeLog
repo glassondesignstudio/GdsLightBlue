@@ -3,6 +3,8 @@
 		* GdsLightBlue/GdsLightBlue.qss:
 		- Issue 10: Set the gridline colour to black so that the gridlines
 		can be seen
+		- Issue 5: Made the vertical scroll bar bigger so that it can be
+		seen and used
 
 		* GdsLightBlue/GdsLightBlue.cfg:
 		- Issues 7 and 8: Increased Sketcher font size to make reading the

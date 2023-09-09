@@ -6,6 +6,7 @@ Release date: TBC
 Bug fix release
 
 ### Resolved Issues
+[Issue 5](https://github.com/glassondesignstudio/GdsLightBlue/issues/5) - Scroll bars in Sketcher workbench Constraints and Elements list boxes too small
 [Issue 10](https://github.com/glassondesignstudio/GdsLightBlue/issues/10) - Spreadsheet cells should have a border to improve readability
 [Issue 8](https://github.com/glassondesignstudio/GdsLightBlue/issues/8) - Sketcher constraint font size too small
 [Issue 7](https://github.com/glassondesignstudio/GdsLightBlue/issues/7) - Sketcher contraint icon size too small
