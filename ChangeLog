@@ -1,8 +1,15 @@
 2023-09-10    <geoff@glassondesignstudio.com.au>
 
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Issue 13: Made the colour of the fully constrained elements the
+		same as the colour used to display the text "Fully Constrained"
+		for consistency
+
 		* GdsLightBlue/GdsLightBlue.qss:
 		- Issue 9: Various colour and size changes to make the scrollbar
 		in combo boxes visible and usable
+		- Issue 13: Selected a deeper green so that the text "Fully
+		Constrained" is more visiable against the background
 
 2023-09-09    <geoff@glassondesignstudio.com.au>
 
