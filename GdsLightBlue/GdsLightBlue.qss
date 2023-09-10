@@ -13,7 +13,7 @@
  * LICENSE
  * =======
  *
- * SkyBlue stylesheet - changes Copyright (c) 2022 Glasson Design Studio
+ * GdsLightBlue stylesheet - changes Copyright (c) 2022 Glasson Design Studio
  *
  * Light Blue stylehseet - Copyright (c) 2019 Pablo Gil Fernández
  *
@@ -178,6 +178,7 @@ QMenu QCheckBox,
 QMenu QPushButton,
 QMenu QToolButton {
     color: black; /* same as regular QRadioButton and QCheckBox */
+    background-color: #c2c0c0; /* main background color */
     min-height: 1em;
 }
 
@@ -376,7 +377,13 @@ QProgressBar::chunk:horizontal {
  */
 QAbstractScrollArea {
     border-radius: 0.2em;
-    background-color: transparent;
+
+    /**
+     * Issue 9: Set the background colour rather than leave it
+     * transparent which causes the scrollbar to be displayed as a
+     * black blob. This does not work for the Workbench selector.
+     */
+    background-color: #c2c0c0;
 }
 
 QAbstractScrollArea::corner {
@@ -390,11 +397,13 @@ QScrollBar:horizontal {
     margin: 0em;
 }
 
+/* Set the colour of the scrollbar slider */
 QScrollBar::handle:vertical,
 QScrollBar::handle:horizontal {
     background-color: rgba(0,0,0,80);
 }
 
+/* Set the colour of the scrollbar slider */
 QScrollBar::handle:vertical:hover,
 QScrollBar::handle:horizontal:hover {
     background-color: rgba(0,0,0,100);
@@ -1442,14 +1451,20 @@ QDateTimeEdit::down-arrow:disabled {
     image: url(qss:images_dark-light/down_arrow_disabled_dark.svg);
 }
 
+QComboBox QScrollBar::vertical {
+    background-color: #c2c0c0; /* Required to fix Issue 9 */
+}
+
 /* ComboBox */
 QComboBox::drop-down {
-    background-color: #d2d2d2;
     subcontrol-origin: border; /* important */
     subcontrol-position: top right;
-    width: 1em;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
+    min-width: 0.7em;
+
+    background-color: #c2c0c0; /* Required to fix Issue 9 */
+    alternate-background-color: #c2c0c0; /* Required to fix Issue 9 */
 }
 
 QComboBox::drop-down:on,
@@ -1475,19 +1490,20 @@ QComboBox::down-arrow:disabled {
 QComboBox {
     selection-color: white;
     selection-background-color: #5e90fa;
+/* Issue 6 - Tried:    icon-size: 2em;*/
 }
 
 QComboBox QAbstractItemView {
     color: #6e6e6e; /* same as regular QComboBox color */
-    background-color: transparent;
+    background-color: white; /* Required to fix Issue 9 */
     selection-color: white;
     selection-background-color: #5e90fa;
     border-width: 0.5em 0em 0.5em 0em;
     border-style: solid;
     border-color: transparent;
     margin: 0em -0.1em 0em 0em; /* temporal: hack for Mac... try it on Windows and Linux */
+/* Issue 6 - Tried:    icon-size: 2em; */
 }
-
 
 /*****************************************************************************
  *
