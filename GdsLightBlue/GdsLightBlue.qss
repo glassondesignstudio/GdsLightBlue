@@ -2392,7 +2392,7 @@ Gui--StatefulLabel[state="solver_failed"] {
     font-weight: bold;
 }
 Gui--StatefulLabel[state="fully_constrained"] {
-    color : rgba(0,255,0,255); /* Green */
+    color: #0a8f1f; /* Required to fix Issue 13 */
     font-weight: bold;
 }
 Gui--UrlLabel {
