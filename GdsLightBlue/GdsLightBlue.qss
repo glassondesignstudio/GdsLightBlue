@@ -2126,6 +2126,15 @@ QTableView {
     selection-background-color: #cbd8e6;
 }
 
+/* Added to resolve Issue 11 */
+QHeaderView::section::vertical {
+    padding: 0.2em;
+}
+
+QHeaderView::section::horizontal {
+    padding: 0.2em;
+}
+
 QTableView::item:hover  {
     background-color: rgba(0,0,0,10);  /* temporal: is it displayed in Linux or Windows? on OSX it isn't */
 }
