@@ -1,3 +1,11 @@
+2023-09-12    <geoff@glassondesignstudio.com.au>
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 11: Added QHeaderView::section::vertical styling to
+		increase the padding around the text which allows the row number
+		to be displayed properly. Also added the same padding to the
+		QHeaderView::section:horizontal styling for consistency
+
 2023-09-10    <geoff@glassondesignstudio.com.au>
 
 		* GdsLightBlue/GdsLightBlue.cfg:
