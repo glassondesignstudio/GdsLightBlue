@@ -6,6 +6,7 @@ Release date: TBC
 Bug fix release
 
 ### Resolved Issues
+[Issue 12](https://github.com/glassondesignstudio/GdsLightBlue/issues/12) - Colour of Sketcher constraint using an expression is difficult to see
 [Issue 11](https://github.com/glassondesignstudio/GdsLightBlue/issues/11) - Spreadsheet rows should be at least as tall as the row label font
 [Issue 13](https://github.com/glassondesignstudio/GdsLightBlue/issues/13) - Sketcher "fully constrained" text is hard to read
 [Issue 9](https://github.com/glassondesignstudio/GdsLightBlue/issues/9) - Workbench selector scrollbar too small
