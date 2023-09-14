@@ -1,7 +1,7 @@
 # GdsLightBluePreferencePack Release Notes
 
 ## Release 0.2
-Release date: TBC
+Release date: 14-Sep-23
 
 Bug fix release
 
