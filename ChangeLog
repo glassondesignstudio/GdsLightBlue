@@ -1,4 +1,44 @@
+2023-09-12    <geoff@glassondesignstudio.com.au>
+
+		* README.md:
+		- Added description of enhancements included in Release 0.2
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 11: Added QHeaderView::section::vertical styling to
+		increase the padding around the text which allows the row number
+		to be displayed properly. Also added the same padding to the
+		QHeaderView::section:horizontal styling for consistency
+
+2023-09-10    <geoff@glassondesignstudio.com.au>
+
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Issue 13: Made the colour of the fully constrained elements the
+		same as the colour used to display the text "Fully Constrained"
+		for consistency
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 9: Various colour and size changes to make the scrollbar
+		in combo boxes visible and usable
+		- Issue 13: Selected a deeper green so that the text "Fully
+		Constrained" is more visiable against the background
+
+2023-09-09    <geoff@glassondesignstudio.com.au>
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 10: Set the gridline colour to black so that the gridlines
+		can be seen
+		- Issue 5: Made the vertical scroll bar bigger so that it can be
+		seen and used
+
+		* GdsLightBlue/GdsLightBlue.cfg:
+		- Issues 7 and 8: Increased Sketcher font size to make reading the
+		constraint symbols and values easier.
+
 2023-09-02    <geoff@glassondesignstudio.com.au>
+
+		* GdsLightBlue/GdsLightBlue.qss:
+		- Issue 3: Darkened stylesheet so that the light coloured icons
+		could be seen
 
 		* ReleaseNotes.md:
 		- Added release notes in preparation for initial release

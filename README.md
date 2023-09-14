@@ -4,9 +4,17 @@ This repository contains the source code for a FreeCAD Preference Pack called Gd
 
 See the [Release Notes](./ReleaseNotes.md) for more details on the changes and new features for each release.
 
-## Why is special about this stylesheet?
+## What is special about this stylesheet?
 
 This stylesheet was developed because videos published on the GlassonDesignStudio YouTube channel were recorded at 4K resolution but the existing FreeCAD stylesheets did not support this resolution very well. The standard stylesheets are typically pixel based which does not allow them to scale up to make ensure visibility when the screen resolution increases. The standard stylesheet Light-blue has been modified so that it adapts more easily to higher resolution displays.
+
+### Enhancements
+- Sketcher constraints using expressions are displayed in yellow to make them easier to see;
+- The colour of the Sketcher "Fully Constrained" text has been darkened to improve readability;
+- The colour of the marker points in the Sketcher have also been darkened to improve readability;
+- Spreadsheet cells have a black border;
+- Sketcher constraint font and label sizes have been increased to improve readability;
+- Various other fixes and improvements (see [Release Notes](./ReleaseNotes.md) for more details);
 
 ## Known Issues and Notes
 1. This preference pack is a work in progress. There are numerous stylesheet errors that require fixing and they will get fixed in time.
