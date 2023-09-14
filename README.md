@@ -8,6 +8,14 @@ See the [Release Notes](./ReleaseNotes.md) for more details on the changes and n
 
 This stylesheet was developed because videos published on the GlassonDesignStudio YouTube channel were recorded at 4K resolution but the existing FreeCAD stylesheets did not support this resolution very well. The standard stylesheets are typically pixel based which does not allow them to scale up to make ensure visibility when the screen resolution increases. The standard stylesheet Light-blue has been modified so that it adapts more easily to higher resolution displays.
 
+### Enhancements
+- Sketcher constraints using expressions are displayed in yellow to make them easier to see;
+- The colour of the Sketcher "Fully Constrained" text has been darkened to improve readability;
+- The colour of the marker points in the Sketcher have also been darkened to improve readability;
+- Spreadsheet cells have a black border;
+- Sketcher constraint font and label sizes have been increased to improve readability;
+- Various other fixes and improvements (see [Release Notes](./ReleaseNotes.md) for more details);
+
 ## Known Issues and Notes
 1. This preference pack is a work in progress. There are numerous stylesheet errors that require fixing and they will get fixed in time.
 1. This preference pack uses a hardcoded font size of 25px as the basis of it's styling. This is due to having to work with two monitors of different resolutions in my use case. My intention is to remove this limitation as soon as possible while still being able to perform my work.
