@@ -1,5 +1,8 @@
 2023-09-12    <geoff@glassondesignstudio.com.au>
 
+		* README.md:
+		- Added description of enhancements included in Release 0.2
+
 		* GdsLightBlue/GdsLightBlue.qss:
 		- Issue 11: Added QHeaderView::section::vertical styling to
 		increase the padding around the text which allows the row number
